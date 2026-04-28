@@ -1,27 +1,3 @@
 {
-  "items": [
-    {
-      "type": "group",
-      "ctime": 1756836806873,
-      "items": [
-        {
-          "type": "file",
-          "ctime": 1751971072446,
-          "path": "Projects/Enhanced Protocol Support/Enhanced Protocol Support.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1752062380833,
-          "path": "Projects/Asset Enhancements/Asset Enhancements.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1756236219830,
-          "path": "Projects/Multi-Location Interventions/Multi-Location Interventions.md",
-          "title": ""
-        }
-      ],
-      "title": "Projects"
-    }
-  ]
+  "items": []
 }
