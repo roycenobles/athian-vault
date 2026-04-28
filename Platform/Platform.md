@@ -5,7 +5,7 @@ The Athian Sustainability Platform is built on a cloud-native microservices arch
 # Microservices
 Each microservice encapsulates its own bounded context and owns its data model, adhering to Domain-Driven Design (DDD) principles. Services are exposed via a unified API layer, providing secure, performant access for internal and external consumers.
 ## [[App Management]]
-Feature flag management. Stores flags in DynamoDB and serves them via a Lambda API; the web app polls on page load to gate UI features per stage.
+Feature flag management. Flags are stored in Lambda environment variables and served via a single Lambda API; the web app polls on page load to gate UI features per stage.
 
 ## [[Asset Management]]
 Lifecycle management for sustainability assets (AVSA and NAVSA). Creates asset bundles when monitoring periods are approved, maintains supply shed availability projections for downstream buyers, and handles claim creation with co-claiming support.
@@ -35,7 +35,7 @@ Fire-and-forget email delivery. Any service publishes a `SendEmailCommand` event
 Real-time WebSocket delivery via a Socket.IO server on ECS Fargate with Redis pub/sub. A Lambda bridge receives platform events from EventBridge and forwards them into the Socket.IO room system for connected browser clients.
 
 ## [[Operational Data]]
-Manages the Athian Open Data Model (AODM) — versioned operational data configuration and time-series records for interventions. Bridges legacy Lambda ARN interfaces with the current REST API.
+Stores and serves Athian Open Data Model (AODM) data — versioned operational data configuration and time-series measurements for interventions. Exposes both an HTTP API and legacy Lambda ARN interfaces; feeds the quantification pipeline.
 
 ## [[Organizations]]
 Supply chain graph management. Maintains organizations, locations, inter-org connections, contracts, and derives the supply shed (full upstream/downstream connection tree) used for emissions allocation and asset availability.
