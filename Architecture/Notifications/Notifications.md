@@ -1,1 +1,0 @@
-Web app notifications service.
