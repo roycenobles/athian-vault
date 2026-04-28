@@ -1,0 +1,14 @@
+{
+  "terminalApp": {
+    "macos": "/Applications/Warp.app"
+  },
+  "enableClaude": false,
+  "enableCodex": false,
+  "enableCursor": false,
+  "enableGemini": false,
+  "enableOpencode": false,
+  "enableWslOnWindows": false,
+  "enableGitCommitPush": false,
+  "enableGitPull": false,
+  "defaultCommitMessage": "update"
+}

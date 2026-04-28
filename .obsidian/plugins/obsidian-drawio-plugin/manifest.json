@@ -1,0 +1,10 @@
+{
+	"id": "drawio-plugin",
+	"name": "Draw.io",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Simple draw.io integration.",
+	"author": "Royce Nobles",
+	"authorUrl": "https://roycenobles.com",
+	"isDesktopOnly": true
+}

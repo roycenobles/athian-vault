@@ -1,0 +1,7 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "Dark Moss",
+  "enabledCssSnippets": [
+    "no-svg-invert"
+  ]
+}
