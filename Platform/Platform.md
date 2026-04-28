@@ -5,7 +5,7 @@ The Athian Sustainability Platform is built on a cloud-native microservices arch
 # Microservices
 Each microservice encapsulates its own bounded context and owns its data model, adhering to Domain-Driven Design (DDD) principles. Services are exposed via a unified API layer, providing secure, performant access for internal and external consumers.
 ## Platform
-### App Management
+### [[App Management]]
 ### Control Plane
 ### Identities
 ### Integrations
