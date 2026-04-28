@@ -8,16 +8,16 @@ Each microservice encapsulates its own bounded context and owns its data model, 
 ### [[App Management]]
 ### Control Plane
 ### [[Identities]]
-### Integrations
-### Organizations
+### [[Integrations]]
+### [[Organizations]]
 ## Application
 ### Asset Management
 ### Asset Accounting
 ### [[Documents]]
 ### [[Interventions]]
-### Mailer
-### Notifications
+### [[Mailer]]
+### [[Notifications]]
 ### [[Operational Data]]
 ### PDF Generator
 ### Quantifications
-### Web App
+### [[Web App]]
