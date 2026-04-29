@@ -59,17 +59,17 @@ At CDK deploy time, `buildWebClient()` runs `nx build web-app`, installs product
 
 ## Cross-service Dependencies
 
-| Service | Usage |
-|---------|-------|
-| [[Identities]] | Cognito-hosted auth (login/logout/redirect); PDP endpoint for request authorization |
-| [[Interventions]] | Core intervention, monitoring period, baseline, component, issue workflows |
-| [[Organizations]] | Org and location data; supply shed; contracts |
-| [[Documents]] | File upload/download/management for monitoring periods and baselines |
-| [[Operational Data]] | Reads/writes operational data config and AODM data via legacy Lambda ARNs |
-| [[Notifications]] | WebSocket endpoint for real-time job progress during async operations (bulk download, etc.) |
-| [[App Management]] | Feature flags (`showNewComponentExperience`, `showAlertBanner`, `showNewCsv`) |
-| [[Integrations]] | Adhoc Uplook verification (Lambda ARN); Uplook token management |
-| PDF Generator | PDF generation and retrieval (Lambda ARN + S3 bucket) |
-| Asset Management | Asset bundles, supply shed available assets, claims (Lambda ARNs + API) |
-| Protocols | Protocol definitions and availability |
-| [[Mailer]] | Email sending via admin power tools |
+| Service              | Usage                                                                                       |
+| -------------------- | ------------------------------------------------------------------------------------------- |
+| [[Identities]]       | Cognito-hosted auth (login/logout/redirect); PDP endpoint for request authorization         |
+| [[Interventions]]    | Core intervention, monitoring period, baseline, component, issue workflows                  |
+| [[Organizations]]    | Org and location data; supply shed; contracts                                               |
+| [[Documents]]        | File upload/download/management for monitoring periods and baselines                        |
+| [[Operational Data]] | Reads/writes operational data config and AODM data via legacy Lambda ARNs                   |
+| [[Notifications]]    | WebSocket endpoint for real-time job progress during async operations (bulk download, etc.) |
+| [[App Management]]   | Feature flags (`showNewComponentExperience`, `showAlertBanner`, `showNewCsv`)               |
+| [[Integrations]]     | Adhoc Uplook verification (Lambda ARN); Uplook token management                             |
+| [[PDF Generator]]    | PDF generation and retrieval (Lambda ARN + S3 bucket)                                       |
+| [[Asset Management]] | Asset bundles, supply shed available assets, claims (Lambda ARNs + API)                     |
+| Protocols            | Protocol definitions and availability                                                       |
+| [[Mailer]]           | Email sending via admin power tools                                                         |
