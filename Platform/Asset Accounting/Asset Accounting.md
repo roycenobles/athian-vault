@@ -2,6 +2,7 @@
 
 Handles the financial side of sustainability asset claims. When a claim is created, Asset Accounting derives producer payment records (one per producer per intervention) and generates a billing report CSV emailed to the accounting distribution list. No HTTP API — purely event-driven.
 
+![[Platform/Asset Accounting/_draw.io/overview.drawio.png]]
 ## Flow
 
 ```

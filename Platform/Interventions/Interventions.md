@@ -1,7 +1,7 @@
 # Interventions
 
 The core domain service. Manages the full lifecycle of sustainability interventions — from creation through data collection to third-party verification and completion. Governs producers, verifiers (VVBs), monitoring periods, baselines, and all associated protocol-specific data.
-
+![[Platform/Interventions/_draw.io/overview.drawio.png]]
 ## Core Concepts
 
 | Entity | Description |

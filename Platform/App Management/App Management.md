@@ -2,7 +2,7 @@
 
 Provides platform-wide application configuration services. Currently scoped to **feature flag management** — exposing runtime flags that control frontend feature availability across the platform.
 
-![[Platform/App Management/_draw.io/overview.drawio.png|650]]
+![[Platform/App Management/_draw.io/overview.drawio.png]]
 ## API
 
 All routes require JWT authorization via the platform's [[Auth Platform|Policy Enforcement Point]].
